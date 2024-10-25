@@ -2,7 +2,7 @@ from fastapi import Depends, FastAPI, HTTPException,status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pydantic import BaseModel
 from datetime import datetime,timedelta
-from jose import jwt,JOSEError
+#from jose import jwt,JOSEError
 from passlib.context import CryptContext 
 SECRET_KEY = "ba8f2e837463e588336199d7b73a47191e6562692767a284645f163a9d59f570"
 ALGORITHM ="HS256"
