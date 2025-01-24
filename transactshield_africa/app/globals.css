@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #094299;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --secondory: #D94187;
+  --white: #ffffff;
+  --primary: #164299;
+  --dark:rgba(2, 32, 91, 1);
+}
+
+.pathway-gothic-one-regular {
+  font-family: "Pathway Gothic One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.slanted-slider,
+.empty-slider {
+  position: relative;
+  height: 80px;
+  overflow: hidden;
+  
+}
+
+
+.slanted-slider {
+  background: rgba(22, 66, 153, 1); 
+  color: white;
+  transform: skewY(3deg); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2; 
+  margin-top: -650px;
+  
+   
+}
+
+.slanted-slider-content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  transform: skewY(1deg); 
+  white-space: nowrap;
+  height: 100%;
+
+  
+}
+
+
+.empty-slider {
+  background: rgba(217, 65, 135, 1); 
+  transform: skewY(-1deg); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0; 
+  margin-top: -90px;
+}
+
+.empty-slider-content {
+  transform: skewY(-5deg); 
+  height: 100%; 
+}
+
+.rounded-rectangle {
+  
+  border: 5px solid #0066ff;
+  border-radius: 20px; 
+}
