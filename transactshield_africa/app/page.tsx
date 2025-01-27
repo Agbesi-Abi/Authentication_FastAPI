@@ -37,7 +37,7 @@ const Hero = () => (
       <h2 className="font-pathway text-5xl md:text-5xl lg:text-7xl font-extrabold mt-8 text-transparent bg-clip-text bg-gradient-to-r from-white via-white  to-pink  ">
         TRANSACTSHIELD
       </h2>
-      <p className="font-pathway text-base md:text-lg lg:text-xl text-white transition-colors duration-300 mt-4">
+      <p className="font-pathway tracking-widest text-base md:text-lg lg:text-xl text-white transition-colors duration-300 mt-4">
         SAFE TRANSACTIONS, STRONG CONNECTIONS.
       </p>
     </div>
@@ -160,14 +160,14 @@ const ServicesSection = () => (
 const ITSolutionsSection = () => (
   <section className="py-10 px-4 sm:px-6 bg-gray-100 ">
     <div className="relative">
-      <div className="relative z-10 text-center">
+      <div className="relative z-10 text-end">
         <h1 className="text-2xl md:text-4xl font-medium leading-snug text-blue-900">
           We’ve got you covered with IT solutions.
         </h1>
-        <p className="text-pink-500 mt-4 text-sm md:text-base">
+        <p className="text-pink mt-4 text-sm md:text-base">
           We’re here to provide you with IT solutions to assist in developing your business and personal endeavors.
         </p>
-        <button className="mt-4 px-6 py-2 text-foreground border border-foreground rounded-full hover:bg-pink hover:text-white transition">
+        <button className="mt-4 mr-16 px-6 py-2 text-foreground border border-foreground rounded-full hover:bg-gradient-to-r from-blue-800 via-purple-700 to-pink hover:text-white transition">
           Learn more &rarr;
         </button>
       </div>
@@ -185,12 +185,29 @@ const ITSolutionsSection = () => (
 const settings = {
   infinite: true,
   speed: 500,
-  slidesToShow: 3,
-  slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
   pauseOnHover: true,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 };
+
 
 const SlantedSliderSection = () => {
   const settings = {

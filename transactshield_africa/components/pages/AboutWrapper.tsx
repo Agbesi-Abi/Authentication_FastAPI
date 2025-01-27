@@ -35,11 +35,11 @@ const AboutWrapper = () => {
 
         {/* Text Content */}
         <div className="relative z-10 text-center px-4">
-          <h1 className="font-pathway text-5xl md:text-5xl lg:text-7xl font-extrabold mt-8 text-transparent bg-clip-text bg-gradient-to-r from-white via-white  to-pink">
+          <h1 className="font-pathway tracking-widest text-5xl md:text-5xl lg:text-7xl font-extrabold mt-8 text-transparent bg-clip-text bg-gradient-to-r from-white via-white  to-pink">
             ABOUT US
           </h1>
           <h2
-            className="font-pathway text-5xl md:text-5xl lg:text-7xl font-extrabold mt-8 bg-clip-text text-white "
+            className="font-pathway tracking-widest text-5xl md:text-5xl lg:text-7xl font-extrabold mt-8 bg-clip-text text-white "
             style={{
               fontSize: "20px",
               fontWeight: 400,

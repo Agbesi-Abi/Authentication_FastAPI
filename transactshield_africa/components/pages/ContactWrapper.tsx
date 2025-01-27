@@ -48,10 +48,10 @@ const ContactWrapper = () => {
 
                 {/* Text Content */}
                 <div className="relative z-10 text-center">
-                    <h1 className="font-pathway text-3xl md:text-5xl font-bold text-white mb-4">
+                    <h1 className="font-pathway tracking-widest text-5xl md:text-5xl lg:text-7xl font-extrabold -mt-20 text-transparent bg-clip-text bg-gradient-to-r from-white via-white  to-pink">
                         CONTACT US
                     </h1>
-                    <p className="font-pathway text-lg md:text-2xl text-white">
+                    <p className="font-pathway text-lg md:text-2xl text-white mt-4">
                         GET IN TOUCH WITH TRANSACTSHIELD.
                     </p>
                 </div>
@@ -84,7 +84,7 @@ const ContactWrapper = () => {
                     description="support@transactshield.com"
                     icon={
                         <svg
-                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns="/ic_round-email.svg"
                             fill="none"
                             viewBox="0 0 24 24"
                             strokeWidth={1.5}
@@ -193,7 +193,7 @@ const ContactWrapper = () => {
                             <div className="text-center">
                                 <button
                                     type="submit"
-                                    className="flex items-center justify-center gap-2 px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
+                                    className="flex items-center justify-center gap-2 px-6 py-3 bg-dark text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300"
                                 >
                                     Submit <Image src={send} alt="Send Icon" width={20} height={20} />
                                 </button>

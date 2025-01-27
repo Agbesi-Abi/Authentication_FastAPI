@@ -30,7 +30,7 @@ const ProductWrapper = () => {
           <h1 className="font-pathway text-5xl md:text-5xl lg:text-7xl font-extrabold mt- text-transparent bg-clip-text bg-gradient-to-r from-white via-white  to-pink">
             OUR PRODUCTS
           </h1>
-          <p className="font-roboto text-lg md:text-xl text-white">
+          <p className="font-roboto tracking-widest text-lg md:text-xl text-white">
             TAKE A LOOK AT OUR WORKS.
           </p>
         </div>

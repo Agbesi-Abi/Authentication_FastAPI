@@ -119,7 +119,7 @@ const Navbar = () => {
                             CONTACT
                         </Link>
                         <Link
-                            href="/products"
+                            href="/product"
                             className="px-6 py-2 bg-blue-900 text-white rounded-full hover:bg-pink transition duration-200"
                             onClick={() => setMenuOpen(false)}
                         >
